@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quotes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quotes/QuotesWebPart.js",
+          "manifest": "./src/webparts/quotes/QuotesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuotesWebPartStrings": "lib/webparts/quotes/loc/{locale}.js"
+  }
+}
